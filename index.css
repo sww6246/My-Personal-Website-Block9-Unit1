@@ -110,11 +110,15 @@ footer {
 }
 
 .left-image {
-    height: 125px;
+    height: 150px;
     float:left;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .right-image {
-    height: 125px;
-    float:right
+    height: 150px;
+    float:right;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
