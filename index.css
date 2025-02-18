@@ -9,6 +9,7 @@ main {
     top: 0;
     margin-left: 10%;
     margin-right: 10%;
+    box-shadow: 0 0 25px -1px #222222;
 }
 
 * {
@@ -131,4 +132,21 @@ footer {
 
 .font-black {
     color:#222222
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% + 80px);
+    padding: 10%;
+    border: #222222; 1px;
+    box-shadow: 0 0 12px -2px #222222;
+}
+
+label {
+    color: #ffffff;
+}
+
+.form-background {
+    background-color: #222222;
 }
