@@ -78,6 +78,7 @@ p {
 
 a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .quote {
@@ -150,10 +151,6 @@ form {
     box-shadow: 0 0 12px -2px #222222;
 }
 
-label {
-    color: #ffffff;
-}
-
 .form-background {
     background-color: #222222;
     border-radius: 12px;
@@ -174,6 +171,17 @@ label {
 
     .white-section{
         text-align: center;
+    }
+    nav {
+        height: auto;
+        display:block;
+        text-align: center;
+        margin: auto;
+    }
+
+    #links {
+        display:block;
+        margin: auto;
     }
 }
 
@@ -235,4 +243,40 @@ button:hover {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+}
+
+.left-image:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+
+.right-image:hover{
+    transform: scale(1.1);
+    transition-duration: .5s; 
+}
+
+.personal-photo:hover {
+    transform: scale(1.1);
+    transition-duration: .5s; 
+}
+
+label {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+input {
+    border-radius: 8px;
+}
+
+textarea {
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.active {
+    border-bottom: 1px solid #ffffff;
 }
