@@ -281,3 +281,7 @@ textarea {
 .active {
     border-bottom: 1px solid #ffffff;
 }
+
+.white-section:nth-child(odd){
+    background-color: #cac6c6;
+}
